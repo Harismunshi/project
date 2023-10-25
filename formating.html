@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Formating</title>
+    <style>
+        .colored-background {
+            background-color: #FFA500;
+            /* Orange color */
+        }
+
+        .h1 {
+            font-size: 5vw;
+            font-weight: 900;
+            background-image: url(img.jpg);
+            background-size:cover;
+            background-position: center;
+            background-clip:text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+
+        .margin-example {
+            margin: 20px;
+            padding: 50px;
+            background: yellow;
+        }
+
+        .formatted-text {
+            font-family: Arial, sans-serif;
+            font-size: 2vw;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: underline;
+            color: #333;
+        }
+
+        .font-style-example {
+            font-family: 'Times New Roman', serif;
+            font-size: 2vw;
+            font-style: italic;
+        }
+
+        .border-example {
+            border: 2px solid #000;
+            border-radius: 10px;
+            
+        }
+
+        .colored-text {
+            color: #FF0000;
+            font-size: 2vw;
+        }
+
+        .centered-text {
+            text-align: center;
+            font-size: 2vw;
+        }
+
+        .box-shadow {
+            box-shadow: 8px 5px 8px 8px rgb(51, 49, 49);
+        }
+
+        .uppercase {
+            text-transform: uppercase;
+        }
+
+        .semi-transparent {
+
+            opacity: 0.5;
+        }
+
+        .overflow {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .font{
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="colored-background">
+        <h1> This div has an orange background Color. </h1>
+    </div>
+
+
+    <div class="bg-image">
+        <h1 class="h1">
+            This div has a background image.
+        </h1>
+    </div>
+
+
+    <div class="margin-example">
+        Margin and padding example.
+    </div>
+
+    <p class="formatted-text">
+        This text is formatted.
+    </p>
+
+    <p class="font-style-example">
+        This text has italic styling.
+    </p>
+
+    <div class="border-example">
+        <h1> This div has a border. </h1>
+    </div>
+
+
+    <p class="colored-text">
+        This text is red.
+    </p>
+
+    <p class="centered-text">
+        This text is centered.
+    </p>
+
+    <b>This text is bold.</b>
+
+    <br>
+    <br>
+    <h1>
+        <div class="box-shadow">This content has a box shadow.</div>
+    </h1>
+
+    <h1>
+        <p class="uppercase"> This text is in uppercase.</p>
+    </h1>
+
+    <h1>
+        <div class="semi-transparent">This content is semi-transparent.</div>
+    </h1>
+
+   <h1> <div class="overflow">This text will overflow with an ellipsis if too long. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Adipisci perferendis nihil necessitatibus architecto iusto eligendi, aliquam est beatae ipsa
+        blanditiis? Labore, illo, voluptates veritatis ipsam alias quo earum laborum sunt modi cupiditate corrupti quas
+        odit iusto facilis velit, deserunt doloremque dicta neque aut pariatur voluptatem. Ipsa explicabo nihil totam
+        eligendi dolorem ut unde a, quia quam repudiandae saepe vitae laudantium odit dolorum fugiat perferendis,
+        ducimus temporibus error? Dolorem vero beatae, optio reprehenderit unde dolorum. Hic possimus necessitatibus eos
+        fuga laborum dolor temporibus amet earum doloremque iure omnis esse ipsam adipisci dolorum qui, voluptatum
+        incidunt nam aut. Quod repellendus blanditiis consequuntur.</div></h1>
+
+       <h1><p class="font">This text uses Arial font.</p> </h1>
+</body>
+
+</html>
